@@ -1,0 +1,18 @@
+Username:******
+Password:******
+Enter configuration commands, one per line.  End with CTRL/Z.
+(config)#sh gpon onu uncfg
+OnuIndex                 Sn                  State
+---------------------------------------------------------------------
+gpon-onu_0/1/4:1         ZTEG00000001        unknown             
+gpon-onu_0/4/4:1         ZTEG7C204AA6        unknown             
+gpon-onu_0/6/4:1         ZTEG7C27DFFF        unknown             
+gpon-onu_0/9/1:1         ZTEG7C182747        unknown             
+gpon-onu_0/12/1:1        ZTEG7C181A13        unknown             
+gpon-onu_0/12/1:2        ZTEG7C206B16        unknown             
+gpon-onu_0/12/3:1        ZTEG70005E3A        unknown             
+gpon-onu_0/12/3:2        ZTEG7C216B72        unknown             
+gpon-onu_0/12/4:1        ZTEG00000001        unknown             
+gpon-onu_0/12/4:2        ZTEG7C1822AB        unknown             
+gpon-onu_0/13/3:1        ZTEG7C1AFE8C        unknown             
+(config)#

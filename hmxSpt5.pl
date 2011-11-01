@@ -54,4 +54,9 @@ push @{$ref_array},$ref_hash1;
 }
 	}
 print Dumper($ref_array);
+
 close(FILE);
+
+sub END {
+	print "End !\n";
+}
